@@ -21,3 +21,6 @@ A great advantage of this program is that you wont loose your data when you upda
     Note: If you do not run it as administrator, not to worry! It will automatically trigger a UAC prompt in order to gain administrator access.
 
 3. Now just follow along! The program will tell you what to do as you go. (There's not much at all to do exept read once and hit any key, everything is automatic.)
+
+# FOR BEST EXPERIENCE, EXTRACT THE CODE IN THE ZIP FILE TO A FOLDER SEPERATE FROM THE REST AND ONLY USE THAT.
+This is because errors may or may not occur when having dummy files in directories. There should be no errors though.
