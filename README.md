@@ -9,7 +9,8 @@ It's for the people who are tired of Windows 10, or have an incompatible PC on W
 If you ran the program, but it crashed or you stopped it, don't worry, you can run it again and it will reset itself.
 Just make sure to type in "a" when it asks you about overwriting things.
 
-The code needs to be extracted from the zip file.
+The code needs to be extracted from the zip file. The reason for this is to avoid having dummy files in vacant directories.
+The program is mostly made up of batch script, but it has some powershell as well.
 
 A great advantage of this program is that you wont loose your data when you update!
 #
