@@ -1,6 +1,6 @@
 # Windows 11 Installer for Incompatible Divices
 This program uses code from "Skip TPM Check on Dynamic Update V10", made by AveYo on github.
-https://github.com/AveYo/MediaCreationTool.bat/blob/main/bypass11/Skip_TPM_Check_on_Dynamic_Update.cmd
+https://github.com/AveYo/MediaCreationTool.bat/blob/main/bypass11/Skip_TPM_Check_on_Dynamic_Update.cmd 
 It also uses this code from Stackoverflow: https://stackoverflow.com/a/12264592/1016343 
 #
 This software takes genuine Windows 11 iso files and then will install it onto incompatible divices.
