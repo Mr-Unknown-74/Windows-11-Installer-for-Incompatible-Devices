@@ -19,6 +19,6 @@ A great advantage of this program is that you won't lose your data when you upda
     Note: You will see if you run the program, but it'll say that it's installing Windows Server.
     That doesn't mean anything, it just tricks the installer that it's installing Windows Server because Windows Server doesn't have the same restrictions as Windows 11.
 
-4. After Windows 11 is installed, you can run Start.cmd again to uninstall the program.
+4. After Windows 11 is installed, you can run 'Windows 11 installer for incompatible devices 2.0.0.cmd' again to uninstall the program.
     Note: If you accidentally typed in 'yes' or 'y' and the program installed again, that's ok!
     Just run Start.cmd again and make sure to type in 'no' or 'n' at that time.
