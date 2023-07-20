@@ -13,12 +13,12 @@ A great advantage of this program is that you won't lose your data when you upda
 # HOW TO USE:
 
 1. Run 'Windows 11 installer for incompatible devices 2.0.0.cmd'
-    Note: If you do not run it as administrator, do not worry! It will automatically trigger a UAC prompt in order to gain administrator access.
+     - Note: If you do not run it as administrator, do not worry! It will automatically trigger a UAC prompt in order to gain administrator access.
 
 3. Now just select the Windows ISO file that you want to install, give it a second to open the Windows installer, and then go through the windows installer as normal.
-    Note: You will see if you run the program, but it'll say that it's installing Windows Server.
-    That doesn't mean anything, it just tricks the installer that it's installing Windows Server because Windows Server doesn't have the same restrictions as Windows 11.
+     - Note: You will see if you run the program, but it'll say that it's installing Windows Server.
+     - That doesn't mean anything, it just tricks the installer that it's installing Windows Server because Windows Server doesn't have the same restrictions as Windows 11.
 
 4. After Windows 11 is installed, you can run 'Windows 11 installer for incompatible devices 2.0.0.cmd' again to uninstall the program.
-    Note: If you accidentally typed in 'yes' or 'y' and the program installed again, that's ok!
+     - Note: If you accidentally typed in 'yes' or 'y' and the program installed again, that's ok!
     Just run Start.cmd again and make sure to type in 'no' or 'n' at that time.
