@@ -1,4 +1,4 @@
-@echo off & title Windows 11 installer for incompatible divices
+@echo off & title Windows 11 installer for incompatible devices
 
 :sos
 cls
@@ -36,7 +36,7 @@ if /i "%~1"=="install" (goto installprompt) else if /i "%~1"=="remove" goto remo
 
 cls
 color 07
-title Windows 11 installer for incompatible divices
+title Windows 11 installer for incompatible devices
 mode 76, 30
 echo:
 echo:
