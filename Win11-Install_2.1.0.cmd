@@ -38,9 +38,6 @@ cls
 color 07
 title Windows 11 installer for incompatible divices
 mode 76, 30
-set "mastemp=%SystemRoot%\Temp\__MAS"
-if exist "%mastemp%\.*" rmdir /s /q "%mastemp%\" %nul%
-
 echo:
 echo:
 echo:
@@ -265,8 +262,6 @@ cls
 color 07
 title Windows 11 installer for incompatible divices
 mode 76, 30
-set "mastemp=%SystemRoot%\Temp\__MAS"
-if exist "%mastemp%\.*" rmdir /s /q "%mastemp%\" %nul%
 
 echo:
 echo:
