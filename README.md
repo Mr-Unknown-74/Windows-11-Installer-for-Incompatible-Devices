@@ -5,7 +5,7 @@ https://github.com/AveYo/MediaCreationTool.bat/blob/main/bypass11/Skip_TPM_Check
  - This software takes genuine Windows 11 ISO files and then will install them onto incompatible devices.
 It's for the people who are tired of Windows 10 or have an incompatible PC on Windows 11 21H2 that you want to update to 22H2.
 
- - If you ran the program, but it crashed or you stopped it, don't worry, you can run it again and it will uninstall, and then ask you if you want to reinstall
+ - If you ran the program, but it crashed or you stopped it, don't worry, you can run it again and it will uninstall, and then ask you if you want to reinstall.
 
  - A great advantage of this program is that you won't lose your data when you update!
 #
