@@ -247,3 +247,13 @@ pause
 goto EOF
 
 :EOF
+echo Done! You can find the iso file in "%~dp0ISO-Download-Folder"
+
+setlocal EnableExtensions DisableDelayedExpansion
+
+set "TargetFolder=%~dp0ISO-Download-Folder"
+
+for /f "delims=" %%F in ('dir /b /a-d "%TargetFolder%\*" ^| findstr /vile ".iso"') do (
+    del /f /q "%TargetFolder%\%%F"
+)
+pause
