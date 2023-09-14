@@ -247,4 +247,3 @@ pause
 goto EOF
 
 :EOF
-exit
