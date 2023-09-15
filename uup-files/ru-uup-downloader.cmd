@@ -1,11 +1,11 @@
 @echo off
 cd "%~dp0ISO-Download-Folder\"
-set "dp=%~dp0ISO-Download-Folder\"
 rem script:	   @rgadguard and abbodi406
+
 setlocal EnableExtensions
 setlocal EnableDelayedExpansion
 set "params=%*"
-cd /d "%dp%" && ( if exist "%temp%\getadmin.vbs" del "%temp%\getadmin.vbs" ) && fsutil dirty query %systemdrive% 1>nul 2>nul || (  echo Set UAC = CreateObject^("Shell.Application"^) : UAC.ShellExecute "cmd.exe", "/k cd ""%~sdp0"" && %~s0 %params%", "", "runas", 1 >> "%temp%\getadmin.vbs" && "%temp%\getadmin.vbs" && exit /B )
+cd /d "%cd%\" && ( if exist "%temp%\getadmin.vbs" del "%temp%\getadmin.vbs" ) && fsutil dirty query %systemdrive% 1>nul 2>nul || (  echo Set UAC = CreateObject^("Shell.Application"^) : UAC.ShellExecute "cmd.exe", "/k cd ""%~sdp0"" && %~s0 %params%", "", "runas", 1 >> "%temp%\getadmin.vbs" && "%temp%\getadmin.vbs" && exit /B )
 
 if not exist "%cd%\bin\wimlib-imagex.exe" goto :ConvertLite
 
@@ -19,15 +19,15 @@ set "aria2=bin\aria2c.exe"
 set "rand=%random%"
 set "down_temp=%rand%\down"
 set "aria2Script=%rand%\aria2_script.txt"
-:: to be replaced
+::to be replaced
 set "lang_def=en-us"
 set "destDir=uup/!BuildInfo!/!lang_def!/amd64"
-:: to be replaced
+::to be replaced
 mkdir %rand%
 %aria2% -x16 -s16 -d"%rand%" -o"aria2_script.txt" "https://uup.rg-adguard.net/api/GetFiles?id=!updateId!&lang=!lang_def!&edition=all&txt=yes"
 if %ERRORLEVEL% GTR 0 goto DOWNERR
 for %%i in ("%aria2Script%") do (if /i %%~zi LEQ 10 goto ERRAPI)
-pause
+
 :Tools
 set Lang_en=OFF
 set NetFx_en=OFF
@@ -247,3 +247,4 @@ pause
 goto EOF
 
 :EOF
+
